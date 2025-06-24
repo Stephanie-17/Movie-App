@@ -1,0 +1,55 @@
+@import "tailwindcss"; 
+
+:root{
+    --primary-color:#22254b;
+}
+body{
+    background-color: #22254b;
+}
+header{
+    background-color: #373b69;
+}
+input{
+    border-color: #22254b;
+}
+.movie-info{
+    background-color: #373b69;
+    max-height: max-content;
+}
+span{
+    background-color: #22254b;
+}
+.movie-info span.green{
+    color:lightgreen;
+}
+.movie-info span.red{
+    color: red;
+}
+.movie-info span.orange{
+    color: orange;
+}
+.movie:hover .overview{
+    transform: translateY(0);
+}
+.movie{
+    height: 536px;
+    width: 300px;
+}
+.movie-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie-img img{
+   height:100%;
+   width: 100%;
+ /* object-fit: contain; */
+}
+.overview{
+    transition: transform 0.3s ease-in;
+}
+.overview{
+    transform: translateY(100%);
+
+}
