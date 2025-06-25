@@ -2,22 +2,23 @@
 
 :root{
     --primary-color:#22254b;
+    --secondary-color: #373b69
 }
 body{
-    background-color: #22254b;
+    background-color: var(--primary-color);
 }
 header{
-    background-color: #373b69;
+    background-color: var(--secondary-color);
 }
 input{
-    border-color: #22254b;
+    border-color: var(--primary-color);
 }
 .movie-info{
-    background-color: #373b69;
+    background-color: var(--secondary-color);
     max-height: max-content;
 }
 span{
-    background-color: #22254b;
+    background-color: var(--primary-color);
 }
 .movie-info span.green{
     color:lightgreen;
